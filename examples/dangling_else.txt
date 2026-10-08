@@ -1,0 +1,8 @@
+# Simplified dangling-else grammar
+S -> if E then S
+S -> if E then S else S
+S -> a
+E -> b
+
+# Try:
+# if b then if b then a else a

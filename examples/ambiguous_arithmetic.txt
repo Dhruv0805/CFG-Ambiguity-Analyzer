@@ -1,0 +1,8 @@
+# Classic ambiguous arithmetic grammar
+E -> E + E
+E -> E * E
+E -> ( E )
+E -> id
+
+# Try:
+# id + id * id

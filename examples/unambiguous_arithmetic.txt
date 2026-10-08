@@ -1,0 +1,10 @@
+# Precedence encoded into the grammar
+E -> E + T
+E -> T
+T -> T * F
+T -> F
+F -> ( E )
+F -> id
+
+# Try:
+# id + id * id
